@@ -1,0 +1,60 @@
+{
+    "sideNavigationItems": {
+        "navigation": [{
+                       "contentType": "MTPContentTypeHome",
+                       "webviewURL": "",
+                       "icon": "",
+                       "fontAwesome": "fa-home",
+                       "title": "Dashboard"
+                       }, {
+                       "icon": "",
+                       "fontAwesome": "fa-calendar",
+                       "title": "Agenda",
+                       "contentType": "MTPContentTypeWebView",
+                       "webviewURL": "http://plc2017.mpeventapps.com/agenda/"
+                       }, {
+                       "icon": "",
+                       "fontAwesome": "fa-group",
+                       "title": "Attendees",
+                       "contentType": "MTPContentTypeWebView",
+                       "webviewURL": "http://plc2017.mpeventapps.com/attendee-list/"
+                       }, {
+                       "icon": "",
+                       "fontAwesome": "fa-certificate",
+                       "title": "Sponsors",
+                       "contentType": "MTPContentTypeWebView",
+                       "webviewURL": "http://plc2017.mpeventapps.com/sponsor-list/"
+                       }, {
+                       "icon": "",
+                       "fontAwesome": "fa-microphone",
+                       "title": "Speakers",
+                       "contentType": "MTPContentTypeSpeakers",
+                       "webviewURL": "http://plc2017.mpeventapps.com/speakers/"
+                       }, {
+                       "icon": "",
+                       "fontAwesome": "fa-info-circle",
+                       "title": "General Info",
+                       "contentType": "MTPContentTypeWebView",
+                       "webviewURL": "http://plc2017.mpeventapps.com/general-information/"
+                       }, {
+                       "icon": "",
+                       "fontAwesome": "fa-map-o",
+                       "title": "Floor plans",
+                       "contentType": "MTPContentTypeWebView",
+                       "webviewURL": "http://plc2017.mpeventapps.com/floor-plans/"
+                       }, {
+                       "icon": "",
+                       "fontAwesome": "fa-briefcase",
+                       "title": "Downloads",
+                       "contentType": "MTPContentTypeWebView",
+                       "webviewURL": "http://plc2017.mpeventapps.com/downloads/"
+                       }, {
+                       "contentType": "MTPContentTypeLogout",
+                       "webviewURL": "",
+                       "icon": "",
+                       "fontAwesome": "fa-lock",
+                       "title": "Logout"
+                       }]
+    },
+    "homePageMenuItems": []
+}

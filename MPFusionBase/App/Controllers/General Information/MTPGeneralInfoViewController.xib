@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="LatoRegular.ttf">
+            <string>Lato-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MTPGeneralInfoViewController">
+            <connections>
+                <outlet property="generalInfoCollectionView" destination="JKp-f5-Kxm" id="UUx-oz-1f0"/>
+                <outlet property="generalInfoHeaderContainer" destination="alo-kY-SnL" id="6Za-Lp-qp0"/>
+                <outlet property="headerTitleLabel" destination="6Am-b4-Dq8" id="6LU-cc-0IM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="alo-kY-SnL">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="60"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INFORMATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Am-b4-Dq8">
+                            <rect key="frame" x="15" y="0.0" width="570" height="60"/>
+                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="6Am-b4-Dq8" firstAttribute="leading" secondItem="alo-kY-SnL" secondAttribute="leading" constant="15" id="Bbd-dl-9zh"/>
+                        <constraint firstAttribute="bottom" secondItem="6Am-b4-Dq8" secondAttribute="bottom" id="HhK-1d-KQz"/>
+                        <constraint firstAttribute="height" constant="60" id="e2E-1l-w1N"/>
+                        <constraint firstAttribute="trailing" secondItem="6Am-b4-Dq8" secondAttribute="trailing" constant="15" id="jBH-5c-nJ9"/>
+                        <constraint firstItem="6Am-b4-Dq8" firstAttribute="top" secondItem="alo-kY-SnL" secondAttribute="top" id="xtD-y8-dKe"/>
+                    </constraints>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" indicatorStyle="white" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="JKp-f5-Kxm">
+                    <rect key="frame" x="0.0" y="60" width="600" height="540"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="1" minimumInteritemSpacing="10" id="Udd-Fh-mHz">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="vdk-Oa-wVL"/>
+                        <outlet property="delegate" destination="-1" id="oO4-qX-JN3"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="alo-kY-SnL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="0yp-OD-yg5"/>
+                <constraint firstAttribute="trailing" secondItem="alo-kY-SnL" secondAttribute="trailing" id="7Jd-mj-bHr"/>
+                <constraint firstItem="JKp-f5-Kxm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Lpz-LT-6k4"/>
+                <constraint firstAttribute="bottom" secondItem="JKp-f5-Kxm" secondAttribute="bottom" id="ang-ua-YPg"/>
+                <constraint firstItem="JKp-f5-Kxm" firstAttribute="top" secondItem="alo-kY-SnL" secondAttribute="bottom" id="mn5-el-hHa"/>
+                <constraint firstItem="alo-kY-SnL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="qhv-cY-Jit"/>
+                <constraint firstAttribute="trailing" secondItem="JKp-f5-Kxm" secondAttribute="trailing" id="vMC-K2-NHR"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

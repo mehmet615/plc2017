@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5457EAEB21C4039204F38412018EF8E5742F2738",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5457EAEB21C4039204F38412018EF8E5742F2738" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "541C5270-D0A4-44A2-9DD8-1D12CA9E6BC5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5457EAEB21C4039204F38412018EF8E5742F2738" : "MPFusionBase\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MPFusionBaseProject",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MPFusionBaseProject.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:mthongva\/mpfusionbase.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5457EAEB21C4039204F38412018EF8E5742F2738"
+    },
+  ]
+}

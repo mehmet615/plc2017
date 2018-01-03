@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="LatoRegular.ttf">
+            <string>Lato-Regular</string>
+            <string>Lato-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MTPSessionDataSelectionCell" id="gTV-IL-0wX" customClass="MTPSessionDataSelectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GC8-tU-Igm">
+                        <rect key="frame" x="15" y="42" width="32" height="15"/>
+                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BO1-jh-47V">
+                        <rect key="frame" x="15" y="5" width="32" height="32"/>
+                        <color key="backgroundColor" white="0.9054657907" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="BO1-jh-47V" secondAttribute="height" multiplier="1:1" id="rNe-Ki-xvQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="GC8-tU-Igm" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="4rd-4F-egQ"/>
+                <constraint firstItem="BO1-jh-47V" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="6VP-sB-fN3"/>
+                <constraint firstAttribute="bottom" secondItem="GC8-tU-Igm" secondAttribute="bottom" constant="3" id="SPm-C6-ny0"/>
+                <constraint firstItem="GC8-tU-Igm" firstAttribute="top" secondItem="BO1-jh-47V" secondAttribute="bottom" constant="5" id="Sj4-UH-IY2"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="BO1-jh-47V" secondAttribute="trailing" constant="10" id="axX-Va-Dqc"/>
+                <constraint firstItem="BO1-jh-47V" firstAttribute="centerX" secondItem="GC8-tU-Igm" secondAttribute="centerX" id="go6-3g-GZh"/>
+                <constraint firstItem="BO1-jh-47V" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="q1D-eS-yCl"/>
+                <constraint firstItem="GC8-tU-Igm" firstAttribute="leading" secondItem="BO1-jh-47V" secondAttribute="leading" id="yep-c1-AgG"/>
+            </constraints>
+            <size key="customSize" width="225" height="249"/>
+            <connections>
+                <outlet property="dateNumberLabel" destination="BO1-jh-47V" id="jvb-4I-jRJ"/>
+                <outlet property="dateWeekdayLabel" destination="GC8-tU-Igm" id="wf1-Vh-vY6"/>
+            </connections>
+            <point key="canvasLocation" x="647.5" y="477.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
